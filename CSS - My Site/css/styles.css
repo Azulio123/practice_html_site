@@ -1,0 +1,189 @@
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-size: 5.625rem;
+    text-align:center;
+    margin: 0;
+    font-family: 'Sacramento', cursive;
+    padding-top: 3rem;
+    color: #C65D7B;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color:#F68989;
+    font-weight:bolder;
+    padding-bottom: 10px;
+}
+
+h3{ 
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: #C65D7B;
+}
+
+hr {
+    border: dotted #C65D7B 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto 80px auto;
+}
+.grind {
+    font-size: 65px;
+    font-family: 'Comforter Brush', cursive;
+    color: #F68989;
+    text-decoration: double;
+    margin-bottom: 75px;
+}
+
+.top-container {
+    /* this container is set to relative to give the clouds and absolute position */
+    position:relative;
+    background-color: #F6E7D8;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+    padding-bottom:
+}
+
+.boxericon {
+    margin-right: 30px;
+    float:left;
+    width: 35%;
+    object-fit: contain;
+    
+}
+
+.coach-icon {
+    margin-left: 30 px;
+    float:right;
+    width: 35%;
+    height:fit-content;
+    object-fit: contain;
+}
+/*
+.coaching-blurb {
+    clear:right;
+}
+*/
+.skills1 {
+    margin:10px;
+    
+}
+
+.skills2{
+    margin:10px;
+}
+
+.skill-row {
+    height:250px;
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-row2 {
+    height:250px;
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+
+}
+.middle-container { 
+    margin: 100px 0 100px 0;
+   
+}
+
+.top-cloud {
+    padding-top: 75px;
+    position:relative;
+    margin-left: 325px;
+    margin-bottom: 0;
+    height:50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+}
+
+.contact-email { 
+    font-family: 'Montserrat', sans-serif;
+    color: #C65D7B;
+    font-size: 1.5rem;
+    
+}
+
+.footer {
+    padding-top: 30px;
+    background-color: #F6E7D8;
+}
+
+.follow-up {
+    width: 40%;
+    margin: auto;
+    padding: 30px;
+}
+
+.btn {
+    background: #F68989;
+    background-image: -webkit-linear-gradient(top, #F68989, #f53434);
+    background-image: -moz-linear-gradient(top, #F68989, #f53434);
+    background-image: -ms-linear-gradient(top, #F68989, #f53434);
+    background-image: -o-linear-gradient(top, #F68989, #f53434);
+    background-image: linear-gradient(to bottom, #F68989, #f53434);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Montserrat;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #f7d9d9;
+    background-image: -webkit-linear-gradient(top, #f7d9d9, #eb5050);
+    background-image: -moz-linear-gradient(top, #f7d9d9, #eb5050);
+    background-image: -ms-linear-gradient(top, #f7d9d9, #eb5050);
+    background-image: -o-linear-gradient(top, #f7d9d9, #eb5050);
+    background-image: linear-gradient(to bottom, #f7d9d9, #eb5050);
+    text-decoration: none;
+  }
+
+  .bottom-container {
+    margin-bottom: 30px;
+    padding: 50px 0 20px
+  }
+
+  a {
+    color: #F68989;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    margin: 10px 20px;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #f53434;
+  }
+
+  .copyright {
+    font-size: .75em;
+    color:#C65D7B;
+    padding: 20px 0;
+    margin-bottom: 0;
+  }
